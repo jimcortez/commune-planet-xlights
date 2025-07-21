@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
   <head>
-    <version>2025.06</version>
+    <version>2025.07</version>
     <author></author>
     <author-email></author-email>
     <author-website></author-website>
@@ -12,7 +12,7 @@
     <comment></comment>
     <sequenceTiming>25 ms</sequenceTiming>
     <sequenceType>Animation</sequenceType>
-    <mediaFile></mediaFile>
+    <mediaFile/>
     <sequenceDuration>300.000</sequenceDuration>
     <imageDir/>
   </head>
@@ -23,8 +23,8 @@
     <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette4=1,C_CHECKBOX_Palette6=1</ColorPalette>
   </ColorPalettes>
   <EffectDB>
-    <Effect>B_CHOICE_BufferStyle=Per Preview,B_SLIDER_Blur=2,E_0FILEPICKERCTRL_IFS=/Users/jecortez/workspace/commune-shaders/sphere-isf-shaders/SphereProject.fs,E_SLIDER_SHADERXYZZY_rotationSpeed=20,E_SLIDER_Shader_Speed=10,E_TEXTCTRL_Shader_LeadIn=0,E_TEXTCTRL_Shader_Offset_X=0,E_TEXTCTRL_Shader_Offset_Y=0,E_TEXTCTRL_Shader_Zoom=0,E_VALUECURVE_SHADERXYZZY_rotationX=Active=TRUE|Id=ID_VALUECURVE_SHADERXYZZY_rotationX|Type=Decaying Sine|Min=-200.00|Max=200.00|P1=75.00|P2=100.00|P3=10.00|P4=50.00|RV=TRUE|,E_VALUECURVE_SHADERXYZZY_rotationY=Active=TRUE|Id=ID_VALUECURVE_SHADERXYZZY_rotationY|Type=Decaying Sine|Min=-200.00|Max=200.00|P1=75.00|P2=100.00|P3=10.00|P4=50.00|RV=TRUE|,T_CHECKBOX_Canvas=1</Effect>
-    <Effect>E_CHECKBOX_SynchroniseWithAudio=0,E_CHECKBOX_Video_AspectRatio=0,E_CHECKBOX_Video_TransparentBlack=0,E_CHOICE_Video_DurationTreatment=Normal,E_FILEPICKERCTRL_Video_Filename=/Users/jecortez/Downloads/nightlights_day-night_ksc_4096x2048_30p_h264.mp4,E_TEXTCTRL_Duration=1:00.000,E_TEXTCTRL_SampleSpacing=0,E_TEXTCTRL_Video_CropBottom=0,E_TEXTCTRL_Video_CropLeft=0,E_TEXTCTRL_Video_CropRight=100,E_TEXTCTRL_Video_CropTop=100,E_TEXTCTRL_Video_Starttime=0.00,E_TEXTCTRL_Video_TransparentBlack=0</Effect>
+    <Effect>B_CHOICE_BufferStyle=Per Preview,B_SLIDER_Blur=2,E_0FILEPICKERCTRL_IFS=/Users/jecortez/workspace/commune-planet-xlights/commune-shaders/sphere-isf-shaders/SphereProject.fs,E_SLIDER_SHADERXYZZY_rotationSpeed=4,E_SLIDER_SHADERXYZZY_rotationX=-5,E_SLIDER_SHADERXYZZY_rotationY=8,E_SLIDER_Shader_Speed=100,E_TEXTCTRL_Shader_LeadIn=0,E_TEXTCTRL_Shader_Offset_X=0,E_TEXTCTRL_Shader_Offset_Y=0,E_TEXTCTRL_Shader_Zoom=0,T_CHECKBOX_Canvas=1</Effect>
+    <Effect>E_CHECKBOX_SynchroniseWithAudio=0,E_CHECKBOX_Video_AspectRatio=0,E_CHECKBOX_Video_TransparentBlack=0,E_CHOICE_Video_DurationTreatment=Normal,E_FILEPICKERCTRL_Video_Filename=/Users/jecortez/workspace/commune-planet-xlights/Videos/nightlights_day-night_ksc_4096x2048_30p_h264.mp4,E_TEXTCTRL_Duration=1:00.000,E_TEXTCTRL_SampleSpacing=0,E_TEXTCTRL_Video_CropBottom=0,E_TEXTCTRL_Video_CropLeft=0,E_TEXTCTRL_Video_CropRight=100,E_TEXTCTRL_Video_CropTop=100,E_TEXTCTRL_Video_Starttime=0.00,E_TEXTCTRL_Video_TransparentBlack=0</Effect>
   </EffectDB>
   <DataLayers>
     <DataLayer lor_params="0" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode&gt;" source="&lt;auto-generated&gt;" name="Nutcracker"/>

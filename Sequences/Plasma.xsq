@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
   <head>
-    <version>2025.06</version>
+    <version>2025.07</version>
     <author></author>
     <author-email></author-email>
     <author-website></author-website>
@@ -12,9 +12,9 @@
     <comment></comment>
     <sequenceTiming>25 ms</sequenceTiming>
     <sequenceType>Animation</sequenceType>
-    <mediaFile></mediaFile>
+    <mediaFile/>
     <sequenceDuration>30.000</sequenceDuration>
-    <imageDir></imageDir>
+    <imageDir/>
   </head>
   <nextid>1</nextid>
   <Jukebox/>
@@ -37,7 +37,7 @@
     </Element>
     <Element type="model" name="Atlas v2 v2.0">
       <EffectLayer>
-        <Effect ref="0" name="Plasma" selected="1" startTime="100" endTime="30400" palette="0"/>
+        <Effect ref="0" name="Plasma" startTime="100" endTime="30400" palette="0"/>
       </EffectLayer>
     </Element>
   </ElementEffects>
